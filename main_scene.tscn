@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://clu28lrsqsm5r"]
+
+[ext_resource type="PackedScene" uid="uid://bcdhndl2t1qb7" path="res://rat.tscn" id="1_0f027"]
+[ext_resource type="AudioStream" uid="uid://bk2364gm548sg" path="res://Lynyrd Skynyrd - Free Bird (Official Audio).mp3" id="2_2c62f"]
+
+[node name="main_scene" type="Node3D"]
+
+[node name="Rat" parent="." instance=ExtResource("1_0f027")]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.109893, 0, 0.729049)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_2c62f")
+autoplay = true
+playback_type = 1
+parameters/looping = true

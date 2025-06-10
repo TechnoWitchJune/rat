@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bk2364gm548sg"
+path="res://.godot/imported/Lynyrd Skynyrd - Free Bird (Official Audio).mp3-164dd0dc80417a0fd87ed736ce58eccf.mp3str"
+
+[deps]
+
+source_file="res://Lynyrd Skynyrd - Free Bird (Official Audio).mp3"
+dest_files=["res://.godot/imported/Lynyrd Skynyrd - Free Bird (Official Audio).mp3-164dd0dc80417a0fd87ed736ce58eccf.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
